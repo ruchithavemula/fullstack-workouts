@@ -2,11 +2,14 @@ import { useEffect, useState } from 'react'
 import WorkoutForm from './components/WorkoutForm'
 import WorkoutList from './components/WorkoutList'
 import './index.css'
+
 function App() {
   const [workouts, setWorkouts] = useState([])
 
+  const API_URL = 'http://localhost:2030/Spring-Boot-Workout/api/workouts'
+
   const fetchWorkouts = async () => {
-    const res = await fetch('http://localhost:2030/Spring-Boot-Workout/api/workouts')
+    const res = await fetch(API_URL)
     const data = await res.json()
     setWorkouts(data)
   }
@@ -16,7 +19,7 @@ function App() {
   }, [])
 
   const addWorkout = async (workout) => {
-    await fetch('http://localhost:2030/Spring-Boot-Workout/api/workouts', {
+    await fetch(API_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(workout)
@@ -25,7 +28,7 @@ function App() {
   }
 
   const updateWorkout = async (id, workout) => {
-    await fetch(`http://localhost:2030/Spring-Boot-Workout/api/workouts/${id}`, {
+    await fetch(`${API_URL}/${id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(workout)
@@ -34,7 +37,7 @@ function App() {
   }
 
   const deleteWorkout = async (id) => {
-    await fetch(`http://localhost:2030/Spring-Boot-Workout/api/workouts/${id}`, {
+    await fetch(`${API_URL}/${id}`, {
       method: 'DELETE'
     })
     fetchWorkouts()
