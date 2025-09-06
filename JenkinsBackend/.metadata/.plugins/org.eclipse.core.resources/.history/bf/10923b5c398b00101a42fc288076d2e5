@@ -1,0 +1,5 @@
+package com.example.workout.repository;
+
+public class WorkoutRepository {
+
+}

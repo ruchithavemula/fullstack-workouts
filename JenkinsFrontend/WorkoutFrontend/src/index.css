@@ -1,0 +1,89 @@
+:root {
+  font-family: 'Segoe UI', Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  --primary: #6a5acd;    /* purple */
+  --secondary: #ff7f50;  /* coral */
+  --accent: #00bfa6;     /* teal */
+  --bg-dark: #1e1e2f;
+  --bg-light: #f9f9f9;
+  --text-dark: #1a1a1a;
+  --text-light: #ffffff;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: var(--text-light);
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1.2;
+  color: var(--accent);
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+a {
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+a:hover {
+  color: var(--secondary);
+}
+
+button {
+  border-radius: 12px;
+  border: none;
+  padding: 0.7em 1.5em;
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family: inherit;
+  background: var(--accent);
+  color: white;
+  cursor: pointer;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.2s, background 0.3s;
+}
+button:hover {
+  background: var(--secondary);
+  transform: scale(1.05);
+}
+button:focus {
+  outline: 3px solid var(--primary);
+}
+
+.card {
+  background: var(--bg-light);
+  color: var(--text-dark);
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 1rem 0;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: linear-gradient(135deg, var(--bg-dark), var(--primary));
+    color: var(--text-light);
+  }
+  .card {
+    background: #2b2b3d;
+    color: var(--text-light);
+  }
+}

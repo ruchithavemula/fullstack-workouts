@@ -1,0 +1,65 @@
+2025-09-06 20:41:49,799 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-09-06 21:14:32,175 [Worker-50: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:WorkoutBackend:0.0.1-SNAPSHOT @ C:\JenkinsFullStack\JenkinsBackend\WorkoutBackend\pom.xml.
+2025-09-06 21:14:34,043 [Worker-50: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WorkoutBackend/src/main/java
+2025-09-06 21:14:34,050 [Worker-50: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /WorkoutBackend/src/main/resources
+2025-09-06 21:14:34,058 [Worker-50: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /WorkoutBackend/src/main/resources
+2025-09-06 21:14:34,072 [Worker-50: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WorkoutBackend/src/test/java
+2025-09-06 21:14:34,075 [Worker-50: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /WorkoutBackend/src/test/resources
+2025-09-06 21:14:36,638 [Worker-50: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 7 sec
+2025-09-06 21:14:36,654 [Worker-50: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-06 21:14:40,037 [Worker-50: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:WorkoutBackend:0.0.1-SNAPSHOT @ C:\JenkinsFullStack\JenkinsBackend\WorkoutBackend\pom.xml.
+2025-09-06 21:14:46,160 [Worker-50: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WorkoutBackend/src/main/java
+2025-09-06 21:14:46,162 [Worker-50: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /WorkoutBackend/src/main/resources
+2025-09-06 21:14:46,167 [Worker-50: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /WorkoutBackend/src/main/resources
+2025-09-06 21:14:46,167 [Worker-50: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WorkoutBackend/src/test/java
+2025-09-06 21:14:46,167 [Worker-50: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /WorkoutBackend/src/test/resources
+2025-09-06 21:14:49,466 [Worker-50: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 9.00 sec, update config takes 1.00 sec 
+2025-09-06 21:14:50,082 [Worker-54: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-06 21:14:51,549 [Worker-54: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:WorkoutBackend:0.0.1-SNAPSHOT @ C:\JenkinsFullStack\JenkinsBackend\WorkoutBackend\pom.xml.
+2025-09-06 21:14:53,810 [Worker-54: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WorkoutBackend/src/main/java
+2025-09-06 21:14:53,812 [Worker-54: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /WorkoutBackend/src/main/resources
+2025-09-06 21:14:53,812 [Worker-54: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /WorkoutBackend/src/main/resources
+2025-09-06 21:14:53,812 [Worker-54: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WorkoutBackend/src/test/java
+2025-09-06 21:14:53,814 [Worker-54: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /WorkoutBackend/src/test/resources
+2025-09-06 21:14:54,979 [Worker-54: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 3.00 sec, update config takes 1.00 sec 
+2025-09-06 21:14:57,163 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 21:14:57,295 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 21:14:57,314 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JenkinsFullStack\JenkinsBackend\WorkoutBackend\src\test\resources
+2025-09-06 21:19:28,794 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 21:19:28,801 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 21:19:28,807 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JenkinsFullStack\JenkinsBackend\WorkoutBackend\src\test\resources
+2025-09-06 21:20:09,140 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 21:20:09,149 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 21:20:09,155 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JenkinsFullStack\JenkinsBackend\WorkoutBackend\src\test\resources
+2025-09-06 21:20:52,335 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 21:20:52,343 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 21:20:52,348 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JenkinsFullStack\JenkinsBackend\WorkoutBackend\src\test\resources
+2025-09-06 21:21:32,676 [Worker-57: Launching WorkoutBackend - WorkoutBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 21:21:32,716 [Worker-57: Launching WorkoutBackend - WorkoutBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 21:21:32,723 [Worker-57: Launching WorkoutBackend - WorkoutBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JenkinsFullStack\JenkinsBackend\WorkoutBackend\src\test\resources
+2025-09-06 21:23:03,562 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 21:23:03,567 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 21:23:03,570 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JenkinsFullStack\JenkinsBackend\WorkoutBackend\src\test\resources
+2025-09-06 21:48:25,544 [Worker-59: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:WorkoutBackend:0.0.1-SNAPSHOT @ C:\JenkinsFullStack\JenkinsBackend\WorkoutBackend\pom.xml.
+2025-09-06 21:48:29,567 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 21:48:29,568 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 21:48:29,572 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JenkinsFullStack\JenkinsBackend\WorkoutBackend\src\test\resources
+2025-09-06 21:48:29,575 [Worker-59: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of WorkoutBackend
+2025-09-06 21:48:29,575 [Worker-59: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for WorkoutBackend
+2025-09-06 21:48:29,645 [Worker-64: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-06 21:48:29,878 [Worker-64: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:WorkoutBackend:0.0.1-SNAPSHOT @ C:\JenkinsFullStack\JenkinsBackend\WorkoutBackend\pom.xml.
+2025-09-06 21:48:30,439 [Worker-64: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WorkoutBackend/src/main/java
+2025-09-06 21:48:30,439 [Worker-64: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /WorkoutBackend/src/main/resources
+2025-09-06 21:48:30,440 [Worker-64: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /WorkoutBackend/src/main/resources
+2025-09-06 21:48:30,440 [Worker-64: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /WorkoutBackend/src/test/java
+2025-09-06 21:48:30,441 [Worker-64: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /WorkoutBackend/src/test/resources
+2025-09-06 21:48:31,979 [Worker-64: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for WorkoutBackend
+2025-09-06 21:48:32,516 [Worker-64: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 1.00 sec 
+2025-09-06 21:48:32,884 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 21:48:32,894 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 21:48:32,897 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JenkinsFullStack\JenkinsBackend\WorkoutBackend\src\test\resources
+2025-09-06 21:48:32,898 [Worker-63: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of WorkoutBackend
+2025-09-06 21:48:32,898 [Worker-63: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for WorkoutBackend
+2025-09-06 21:48:58,229 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-06 21:48:58,235 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-06 21:48:58,239 [Worker-67: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\JenkinsFullStack\JenkinsBackend\WorkoutBackend\src\test\resources
