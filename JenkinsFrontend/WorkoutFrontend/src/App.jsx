@@ -6,7 +6,7 @@ import './index.css'
 function App() {
   const [workouts, setWorkouts] = useState([])
 
-  const API_URL = 'http://localhost:2030/Spring-Boot-Workout/api/workouts'
+  const API_URL = 'http://localhost:2030/Spring-Boot-Workout/api/workouts/'
 
   const fetchWorkouts = async () => {
     const res = await fetch(API_URL)
