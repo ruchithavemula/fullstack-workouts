@@ -6,7 +6,7 @@ function App() {
   const [workouts, setWorkouts] = useState([])
 
   const fetchWorkouts = async () => {
-    const res = await fetch('http://localhost:2030/api/workouts')
+    const res = await fetch('http://localhost:2030/Spring-Boot-Workout/api/workouts')
     const data = await res.json()
     setWorkouts(data)
   }
@@ -16,7 +16,7 @@ function App() {
   }, [])
 
   const addWorkout = async (workout) => {
-    await fetch('http://localhost:2030/api/workouts', {
+    await fetch('http://localhost:2030/Spring-Boot-Workout/api/workouts', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(workout)
@@ -25,7 +25,7 @@ function App() {
   }
 
   const updateWorkout = async (id, workout) => {
-    await fetch(`http://localhost:2030/api/workouts/${id}`, {
+    await fetch(`http://localhost:2030/Spring-Boot-Workout/api/workouts/${id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(workout)
@@ -34,7 +34,7 @@ function App() {
   }
 
   const deleteWorkout = async (id) => {
-    await fetch(`http://localhost:2030/api/workouts/${id}`, {
+    await fetch(`http://localhost:2030/Spring-Boot-Workout/api/workouts/${id}`, {
       method: 'DELETE'
     })
     fetchWorkouts()
